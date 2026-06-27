@@ -35,7 +35,7 @@ function CompanyLogin() {
 
       localStorage.setItem(
         "companyName",
-        result.company.companyName
+        result.company.company_name
       );
 
       navigate("/company");
